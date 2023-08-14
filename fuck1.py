@@ -108,7 +108,7 @@ logo =("""\033[0;92m
 \033[1;31m│\033[1;37m☞  \033[1;32m𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞   \033[1;31m➟   \033[1;32mSIAM (𝐁𝐋𝐀𝐍𝐊) 	           \033[1;31m│
 \033[1;31m│\033[1;37m☞  \033[1;32m𝗚𝗜𝗧𝗛𝗨𝗕    \033[1;31m ➟  \033[1;32m SIAM-𝐆𝐒𝐓𝟒𝟐𝟎                  \033[1;31m │
 \033[1;31m│\033[1;37m☞  \033[1;32m𝗬𝗢𝗨𝗧𝗨𝗕𝗘   \033[1;31m ➟   \033[1;32m𝐒𝐑.SIAM 𝐕𝐀𝐈                \033[1;31m   │
-\033[1;31m│\033[1;37m☞  \033[1;32m𝗩𝗘𝗥𝗦𝗜𝗢𝗡   \033[1;31m ➟   \033[1;32m4.0.𝟎                        \033[1;31m   │
+\033[1;31m│\033[1;37m☞  \033[1;32m𝗩𝗘𝗥𝗦𝗜𝗢𝗡   \033[1;31m ➟   \033[1;32m𝟑.𝟗.𝟎                        \033[1;31m   │
 \033[1;31m│\033[1;37m☞  \033[1;32m𝗚𝗥𝗢𝗨𝗣\033[1;31m : \033[1;32mSIAM-𝐇𝐀𝐂𝐊𝐄𝐑𝟒𝟐𝟎 	     \033[1;37m {\033[1;36mGST\033[1;37m}        \033[1;31m│
 \033[1;37m╚\033[1;36mGST\033[93;1m══════\033[41m\033[1;37m[ 𓆩.𝐆𝐄𝐒𝐓..𓆪 𓆩𝐒𝐘𝐁𝐄𝐑𓆪  𓆩.𝐓𝐄𝐄𝐌.𓆪 ]\033[93;1m══════\033[1;36m𝐆𝐒𝐓\033[1;37m╝\033[93;1m
 
@@ -152,8 +152,8 @@ def dynamic(text):
         sys.stdout.flush();time.sleep(1)
 
 #User agents
-ugen2=['Mozilla/5.0 (Symbian/3; Series60/3.8 Nokia9121/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/2.1.1.2 Mobile Safari/535.1', 'accept-encoding': 'gzip, deflate br', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Connection': 'keep-alive', 'Host': 'm.facebook.com', 'upgrade-insecure-requests': '1', 'dnt': '1', 'x-requested-with': 'mark.via.gp', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-user': 'empty', 'sec-fetch-dest': 'document', 'referer': 'https://m.facebook.com/', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8']
-ugen=['Mozilla/5.0 (Symbian/3; Series60/3.8 Nokia9121/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/2.1.1.2 Mobile Safari/535.1', 'accept-encoding': 'gzip, deflate br', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Connection': 'keep-alive', 'Host': 'm.facebook.com', 'upgrade-insecure-requests': '1', 'dnt': '1', 'x-requested-with': 'mark.via.gp', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-user': 'empty', 'sec-fetch-dest': 'document', 'referer': 'https://m.facebook.com/', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8']
+ugen2=['Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36']
+ugen=['Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5']
 for xd in range(10000):
     aa='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
@@ -202,12 +202,12 @@ def xxr():
     os.geteuid
     os.system("clear")
     print(logo)
-    print(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Example>: \033[38;5;45m019,\033[38;5;46m019,\033[38;5;195m019{x}')
+    print(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Example>: \033[38;5;45m019,\033[38;5;46m018,\033[38;5;195m018{x}')
     print(" \033[93;1m●\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═━═\033[93;1m❴\033[47m\033[1;30msiam VAI\033[40m\033[00m\033[93;1m❵\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═\033[93;1m●\n")
-    rk1 = '0191'
-    rk2 = '0192'
-    rk3 = '0194'
-    rk4 = '019'
+    rk1 = '0181'
+    rk2 = '0182'
+    rk3 = '0184'
+    rk4 = '018'
     code = random.choice([rk1,rk2,rk3])                       #input(f' [{xr}â– {x}] Choose : ')
     os.system('clear')
     print(logo)
@@ -227,7 +227,7 @@ def xxr():
         clear()
         tl = str(len(user))
         print('\033[93;1m●\x1b[1;92m▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃\033[47m\x1b[1;92m𝐆𝐒𝐓\033[40m\033[00m\033[93;1m▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃\033[93;1m●')
-        jalan(f' \033[38;5;196m[\033[38;5;195m✔️\033[38;5;196m]\x1b[1;92m𝐂𝐇𝐎𝐎𝐒𝐄 𝐘𝐎𝐔𝐑 𝐂𝐎𝐎𝐃𝐄 : 019')
+        jalan(f' \033[38;5;196m[\033[38;5;195m✔️\033[38;5;196m]\x1b[1;92m𝐂𝐇𝐎𝐎𝐒𝐄 𝐘𝐎𝐔𝐑 𝐂𝐎𝐎𝐃𝐄 : 018')
         jalan(f' \033[38;5;196m[\033[38;5;195m✔️\033[38;5;196m]\x1b[1;92m𝐘𝐎𝐔𝐑 𝐓𝐎𝐓𝐀𝐋 𝐈𝐃𝐒 : \033[38;5;46m'+tl)
         jalan(f' \033[38;5;196m[\033[38;5;195m✔️\033[38;5;196m]\x1b[1;92m𝐔𝐬𝐞𝐫 𝐚𝐠𝐞𝐧𝐭 : 2000')
         jalan(f' \033[38;5;196m[\033[38;5;195m✔️\033[38;5;196m]\x1b[1;92m𝐦𝐨𝐛𝐢𝐥𝐞 𝐝𝐚𝐭𝐚 + 𝐰𝐢𝐟𝐢 𝐨𝐧')
